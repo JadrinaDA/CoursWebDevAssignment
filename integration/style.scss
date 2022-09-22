@@ -1,0 +1,196 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ebebeb;
+    color: #1b1b1b;
+    font-size: 15px;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    padding: 10px 15px;
+    border-bottom: solid lightgrey;
+}
+
+.left-placeholder {
+    min-width: 170px;
+}
+
+.right-placeholder {
+    width: 100px;
+}
+
+.header-content {
+    width: 1070px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.logo {
+    width: 180px;
+    height: 75px;
+}
+
+.logo img {
+    display: block;
+    width: 180px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.web-links {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 300px;
+    margin-left: 60px;
+}
+
+.web-link {
+    text-decoration: none;
+    padding: 10px 20px;
+
+    &:active {
+        background-color: #eeee;
+        border-radius: 17px;
+    }
+
+    &:hover {
+        background-color: #eeee;
+        border-radius: 17px;
+    }
+
+    &:visited{
+        color: black;
+    }
+}
+
+.account-links {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.body-content {
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.account-link {
+    background-color: #72ac51;
+    border-radius: 17px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        background-color: #47752d;
+    }
+
+    &:active {
+        background-color: #47752d;
+    }
+
+    &:visited{
+        color: white;
+    }
+}
+
+.info-box {
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 400px;
+}
+
+.text-info {
+    padding: 30px;
+}
+
+
+h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #565656;
+    padding-left: 30px;
+}
+
+.navigation a {
+    background-color: white;
+    width: 268px;
+    font-weight: 600;
+    font-size : 18px;
+    padding : 20px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.boxes {
+    display: flex;
+}
+
+#about_m {
+    background-color: #72ac51;
+    color: white;
+}
+
+.login-box {
+    background-color: white;
+    width: 450px;
+    padding: 60px;
+    flex-direction: column;
+    align-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+h1 {
+    margin-top: 7px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #565656;
+}
+
+input {
+    width: 450px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+
+    &:focus {
+    outline-color: #72ac51;
+    }
+
+    &[name="username"]:invalid {
+    outline-color: red;
+    }
+}
+
+.sub {
+    background-color: #72ac51;
+    border-radius: 22px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-color: transparent;
+    color: white;
+}
